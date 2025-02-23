@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Sitio Web</title>
+    <style>
+        header {
+            background-color: #231F20;
+            color: #bdbdbd;
+            padding: 10px 0;
+            text-align: center;
+        }
+		}
+		
+        .header {
+            background-color: #BDBDBD; 
+            color: #231f20; /* color claro */
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+        .header .logo img {
+            height: 50px; /* Ajusta este valor según el tamaño de tu logotipo */
+        }
+        .header .social-icons a {
+            margin-left: 10px;
+        }
+        .header .social-icons img {
+            width: 24px;
+            height: 24px;
+            transition: transform 0.3s;
+        }
+        .header .social-icons img:hover {
+            transform: scale(1.2);
+        }
+        .container {
+            display: flex;
+            flex-wrap: nowrap;
+            height: calc(100vh - 80px); +
+            overflow: hidden;
+        }
+        .sidebar {
+            background-color: #231F20; 
+            color: #99830D; /* color claro */
+            width: 250px;
+            padding-top: 20px;
+            box-shadow: 2px 0 5px rgba(0,0,0,0.1);
+            overflow-y: auto;
+            flex-shrink: 0;
+        }
+        .sidebar h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .sidebar a {
+            padding: 15px 25px;
+            text-decoration: none;
+            font-size: 18px;
+            color: #E7E2E2; /* color claro */
+            display: block;
+            transition: background-color 0.3s, color 0.3s;
+        }
+        .sidebar a:hover {
+            background-color: #BDBDBD;
+            color: #231F20; /* gris oscuro */
+        }
+        .main {
+            padding: 20px;
+            overflow-y: auto;
+            flex-grow: 1;
+            background-color: #BDBDBD; /*
+        }
+			.navbar {
+    display: flex;
+    justify-content: center;
+    background-color: #34495e; /* gris oscuro */
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+		.navbar {
+    display: flex;
+    justify-content: center; /* Centra el menú horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    background-color: #E7E2E2; /* gris oscuro */
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.navbar a {
+    color: #99830D; /* color claro */
+	background-color: #231F20;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-size: 18px;
+    transition: background-color 0.3s, color 0.3s;
+	body {
+    display: flex;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.content {
+    flex-grow: 1;
+    padding: 20px;
+    background-color: #bdbdbd; /* color de fondo */
+}
+
+.sidebar-right {
+    width: 250px;
+    padding: 20px;
+    background-color: #BDBDBD; /* gris oscuro */
+    color: #bdbdbd; /* color claro */
+    box-shadow: -2px 0 5px rgba(0,0,0,0.1);
+    overflow-y: auto;
+}
+.sidebar-right h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.sidebar-right p {
+    margin: 10px 0;
+}
+
+}
+		.navbar a:hover {
+    background-color: #BDBDBD;
+    color: #BDBDBD; /* gris oscuro */
+}
+
+        nav {
+            margin: 10px 0;
+        }
+        nav a {
+            color: #99830D;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+	        .sidebar {
+            background-color: #231F20; 
+            color: #99830D; /* color claro */
+            width: 250px;
+            padding-top: 20px;
+            box-shadow: 2px 0 5px rgba(0,0,0,0.1);
+            overflow-y: auto;
+            flex-shrink: 0;
+		}
+        .sidebar h2 {
+            text-align: center;
+            margin-bottom: 20px;
+			.sidebar-right {
+    width: 250px;
+    padding: 20px;
+    background-color: #BDBDBD; /* gris oscuro */
+    color: #BDBDBD; /* color claro */
+    box-shadow: -2px 0 5px rgba(0,0,0,0.1);
+    overflow-y: auto;
+}
+.sidebar-right h2 {
+    text-align: center;
+    margin-bottom: 20px;
+		}
+.navbar a {
+    color: #99830D; /* color claro */
+	background-color: #231F20;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-size: 18px;
+    transition: background-color 0.3s, color 0.3s;
+	body {
+    display: flex;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+    </style>
+</head>
+<body>
+    <header>
+        <h1><img src="../Fraude cibernético A7_ERV/LOGO.png" width="119" height="122" alt=""/>FRAUDE CIBERNÉTICO 
+			  ___________________________________
+			  </div>
+			  <a href="https://abrilmuniz.github.io/wiki_uvm/"><img src="../Fraude cibernético A7_ERV/—Pngtree—home icon_3568908.jpg" alt="https://abrilmuniz.github.io/wiki_uvm/" width="48" height="48"></a> <span class="social-icons"><a href="INISIO DE SECIÓN.html"><img src="../Fraude cibernético A7_ERV/—Pngtree—register button with gradient red_15587228.png" width="116" height="48" alt=""/></a><a href="PERFIL.html"><img src="../Fraude cibernético A7_ERV/1486485581-account-audience-person-customer-profile-user_81164.png" alt="Facebook" width="51" height="49"></a></span>			  <a href="https://facebook.com/tu-pagina"><a href="https://facebook.com/tu-pagina"></a>
+		  <div class="logo"></div>
+          </div>
+    </div>
+    <div class="navbar"><a href="INTRODUCCION INICIO.html">INICIO</a> <a href="SERVICIOS.html">SERVICIOS</a> <a href="AYUDA.html">AYUDA</a> <a href="CONTACTOS.html">CONTACTOS</a></div>
+      </h1>
+    </header>
+</style>
+</head>
+
+<body>
+	  <div class="container">
+		<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menú Desplegable</title>
+    <p>
+  <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #d3d3d3; /* Gris claro */
+            color: #333;
+            margin: 0;
+            padding: 20px;
+        }
+        .sidebar {
+            width: 200px;
+            background-color: #333; /* Negro */
+            color: white;
+            padding: 15px;
+            position: relative;
+        }
+        .sidebar h2 {
+			color: #99830d; /* Dorado */
+        }
+        .sidebar a {
+            color: #bdbdbd; /* Dorado */
+            text-decoration: none;
+            display: block;
+            padding: 10px 0;
+            position: relative;
+        }
+        .sidebar a:hover {
+            background-color: #555; /* Gris */
+        }
+        .sidebar ul {
+            display: none;
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        .sidebar a:hover + ul {
+            display: block;
+        }
+        .sidebar ul li a {
+            padding-left: 20px;
+            color: #99830d; /* Dorado */
+        }
+    </style>
+  <body>
+    </p>
+<div class="sidebar">
+  <h2>MENÚ</h2><p><a href="TIPOS DE FRAUDES.html">Tipos de fraudes</a><a href="#tema1">&nbsp;</a> </p>
+  <ul>
+    <li><a href="#subtema1">Phishing</a></li>
+    <li><a href="#subtema2">Smishing</a></li>
+    <li><a href="#subtema3">Vishing</a></li>
+    <li><a href="#subtema3">Correo basura (Spam)</a></li>
+    <li><a href="#subtema1">Pharming</a></li>
+  </ul>
+  <a href="FRAUDE CIBERNETICO  DETECCION.html">Detección</a><a href="#tema2">&nbsp;</a>
+  <ul>
+    <li><a href="#subtema1">Capacitación</a></li>
+    <li><a href="#subtema2">Consejos</a></li>
+  </ul>
+  <a href="ORIGEN.html">Origen</a><a href="#tema3">&nbsp;</a>
+  <ul>
+    <li><a href="#subtema1">Causas</a></li>
+    <li><a href="#subtema2">Consecuencias</a></li>
+  </ul>
+  <a href="PREVENCIÓN.html">Prevención</a><a href="#tema4">&nbsp;</a>
+  <ul>
+    <li><a href="#subtema1">Educación</a></li>
+    <li><a href="#subtema2">Monitoreo</a></li>
+    <li><a href="#subtema3">Protección</a></li>
+  </ul>
+  <p><a href="SERVICIOS.html">Más... </a></p>
+</div>
+	<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mi Página Web</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .contenido {
+            padding: 20px;
+            background-color: #f0f0f0;
+        }
+    </style>
+</head>
+<body>
+
+    <main>
+        <div class="contenido">
+             <div class="contenido">
+ <!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fraudes Cibernéticos</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+<style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            font-weight: 300;
+        }
+        h1, h3 {
+            font-weight: 300;
+        }
+    </style>
+</head>
+<body>
+<h1>Prevención de Delitos Cibernéticos.</h1>
+<ol>
+  <p>La prevención de delitos cibernéticos es esencial para proteger nuestra información personal y financiera en el mundo digital. Aquí te dejo una guía detallada y comprensible sobre cómo prevenir estos delitos:</p>
+  <h4>1. Mantén tu software actualizado</h4>
+  <p>Es fundamental mantener tu sistema operativo, aplicaciones y programas antivirus siempre actualizados. Las actualizaciones suelen incluir parches de seguridad que corrigen vulnerabilidades conocidas, lo que dificulta que los ciberdelincuentes exploten estas debilidades para acceder a tu información.</p>
+  <h4>2. Usa contraseñas fuertes y únicas</h4>
+  <p>Las contraseñas son la primera línea de defensa contra los ataques cibernéticos. Crea contraseñas complejas que incluyan una combinación de letras mayúsculas y minúsculas, números y símbolos. Evita usar la misma contraseña para múltiples cuentas y considera el uso de un gestor de contraseñas para almacenar y generar contraseñas seguras.</p>
+  <h4>3. Activa la autenticación de dos factores (2FA)</h4>
+  <p>La autenticación de dos factores añade una capa extra de seguridad al requerir un segundo factor de verificación, como un código enviado a tu teléfono, además de tu contraseña. Esto hace que sea mucho más difícil para los ciberdelincuentes acceder a tus cuentas, incluso si logran obtener tu contraseña.</p>
+  <h4>4. Sé cauteloso con los correos electrónicos y enlaces sospechosos</h4>
+  <p>El phishing es una técnica común utilizada por los ciberdelincuentes para robar información personal. No abras correos electrónicos de remitentes desconocidos y no hagas clic en enlaces sospechosos. Verifica siempre la dirección de correo electrónico del remitente y busca señales de alerta, como errores gramaticales o solicitudes de información personal.</p>
+  <h4>5. Protege tu red Wi-Fi</h4>
+  <p>Asegúrate de que tu red Wi-Fi esté protegida con una contraseña segura y utiliza cifrado WPA3 si es posible. Evita usar redes Wi-Fi públicas para realizar transacciones sensibles, ya que estas redes son más susceptibles a ataques. Si necesitas usar una red pública, considera el uso de una red privada virtual (VPN) para cifrar tu conexión.</p>
+  <h4>6. Realiza copias de seguridad regularmente</h4>
+  <p>Haz copias de seguridad de tus datos importantes de manera regular. Esto te permitirá recuperar tu información en caso de un ataque cibernético, como un ransomware, que puede cifrar tus archivos y exigir un rescate para liberarlos. Almacena las copias de seguridad en un lugar seguro, preferiblemente fuera de línea.</p>
+  <h4>7. Educa a los usuarios</h4>
+  <p>La educación y la concienciación son fundamentales para la prevención de delitos cibernéticos. Asegúrate de que todos los usuarios de tu red estén informados sobre las mejores prácticas de seguridad cibernética. Realiza sesiones de capacitación periódicas y proporciona recursos educativos para mantener a todos actualizados sobre las últimas amenazas y técnicas de prevención.</p>
+  <h4>8. Utiliza software de seguridad</h4>
+  <p>Instala y mantén actualizado un buen software antivirus y antimalware. Estos programas pueden detectar y eliminar amenazas antes de que causen daño. Además, considera el uso de un firewall para monitorear y controlar el tráfico de red entrante y saliente, lo que puede ayudar a prevenir accesos no autorizados.</p>
+  <h4>9. Monitorea tus cuentas</h4>
+  <p>Revisa regularmente tus estados de cuenta bancarios y de tarjetas de crédito para detectar cualquier actividad sospechosa. Informa inmediatamente a tu banco si notas algo inusual. Además, monitorea tus cuentas en línea y configura alertas de seguridad para recibir notificaciones sobre actividades sospechosas.</p>
+  <h4>10. Configura alertas de seguridad</h4>
+  <p>Muchas instituciones financieras y servicios en línea ofrecen alertas de seguridad que te notifican sobre actividades sospechosas en tus cuentas. Activa estas alertas para estar informado en tiempo real y poder tomar medidas rápidas en caso de detectar alguna actividad inusual.</p>
+  <h3>Conclusión</h3>
+  <p>La prevención de delitos cibernéticos requiere una combinación de buenas prácticas de seguridad, educación y el uso de herramientas adecuadas. Mantenerse informado y ser proactivo en la protección de tus datos es esencial para evitar ser víctima de estos delitos.</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+</ol>
+</body>
+</html>
+            <p><img src="../Fraude cibernético A7_ERV/OIP (82).jpeg" width="671" height="355" alt=""/></p>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+
+      </div>
+</body>
+</html>
+      </div>
+    </main>
+
+		<!DOCTYPE html>
+<html>
+<head>
+    <title>Mi Página con Barra Lateral Vertical</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        header, nav, footer {
+            background-color: #;
+            padding: 10px;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .main-content {
+            display: flex;
+            justify-content: space-between;
+            padding: 0 20px;
+        }
+        .content {
+            width: 70%;
+            padding: 20px;
+            background-color: #;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .sidebar {
+            width: 25%;
+            background-color: #;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .ad {
+            margin-bottom: 20px;
+            background-color: #;
+            padding: 10px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+    <header>
+         <h1>        <h2>¿Cuáles son los tipos de fraudes cibernéticos más comunes y cómo evitarlos?</h2>
+        <p><img src="https://th.bing.com/th/id/OIP.FFP7k4JT_4fbx13eaz9TxAHaHa?rs=1&pid=ImgDetMain" width="244" height="158" alt=""/></p></h1>
+	        <p><strong>Policía Cibernética de la Secretaría de Seguridad Ciudadana </strong></p>
+        <p><img src="https://img.freepik.com/vector-premium/cartel-fraude-cibernetico-isometrico_188544-7462.jpg?w=740" width="257" height="205" alt=""/></p>
+    <nav>
+	
+</body>
+</html>
+
+</body>
+		  
+</body>
+
+</html>

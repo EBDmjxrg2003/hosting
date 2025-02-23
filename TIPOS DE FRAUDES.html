@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Sitio Web</title>
+    <style>
+        header {
+            background-color: #231F20;
+            color: #bdbdbd;
+            padding: 10px 0;
+            text-align: center;
+        }
+		}
+		
+        .header {
+            background-color: #BDBDBD; 
+            color: #231f20; /* color claro */
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+        .header .logo img {
+            height: 50px; /* Ajusta este valor según el tamaño de tu logotipo */
+        }
+        .header .social-icons a {
+            margin-left: 10px;
+        }
+        .header .social-icons img {
+            width: 24px;
+            height: 24px;
+            transition: transform 0.3s;
+        }
+        .header .social-icons img:hover {
+            transform: scale(1.2);
+        }
+        .container {
+            display: flex;
+            flex-wrap: nowrap;
+            height: calc(100vh - 80px); +
+            overflow: hidden;
+        }
+        .sidebar {
+            background-color: #231F20; 
+            color: #99830D; /* color claro */
+            width: 250px;
+            padding-top: 20px;
+            box-shadow: 2px 0 5px rgba(0,0,0,0.1);
+            overflow-y: auto;
+            flex-shrink: 0;
+        }
+        .sidebar h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .sidebar a {
+            padding: 15px 25px;
+            text-decoration: none;
+            font-size: 18px;
+            color: #E7E2E2; /* color claro */
+            display: block;
+            transition: background-color 0.3s, color 0.3s;
+        }
+        .sidebar a:hover {
+            background-color: #BDBDBD;
+            color: #231F20; /* gris oscuro */
+        }
+        .main {
+            padding: 20px;
+            overflow-y: auto;
+            flex-grow: 1;
+            background-color: #BDBDBD; /*
+        }
+			.navbar {
+    display: flex;
+    justify-content: center;
+    background-color: #34495e; /* gris oscuro */
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+		.navbar {
+    display: flex;
+    justify-content: center; /* Centra el menú horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    background-color: #E7E2E2; /* gris oscuro */
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.navbar a {
+    color: #99830D; /* color claro */
+	background-color: #231F20;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-size: 18px;
+    transition: background-color 0.3s, color 0.3s;
+	body {
+    display: flex;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.content {
+    flex-grow: 1;
+    padding: 20px;
+    background-color: #bdbdbd; /* color de fondo */
+}
+
+.sidebar-right {
+    width: 250px;
+    padding: 20px;
+    background-color: #BDBDBD; /* gris oscuro */
+    color: #bdbdbd; /* color claro */
+    box-shadow: -2px 0 5px rgba(0,0,0,0.1);
+    overflow-y: auto;
+}
+.sidebar-right h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.sidebar-right p {
+    margin: 10px 0;
+}
+
+}
+		.navbar a:hover {
+    background-color: #BDBDBD;
+    color: #BDBDBD; /* gris oscuro */
+}
+
+        nav {
+            margin: 10px 0;
+        }
+        nav a {
+            color: #99830D;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+	        .sidebar {
+            background-color: #231F20; 
+            color: #99830D; /* color claro */
+            width: 250px;
+            padding-top: 20px;
+            box-shadow: 2px 0 5px rgba(0,0,0,0.1);
+            overflow-y: auto;
+            flex-shrink: 0;
+		}
+        .sidebar h2 {
+            text-align: center;
+            margin-bottom: 20px;
+			.sidebar-right {
+    width: 250px;
+    padding: 20px;
+    background-color: #BDBDBD; /* gris oscuro */
+    color: #BDBDBD; /* color claro */
+    box-shadow: -2px 0 5px rgba(0,0,0,0.1);
+    overflow-y: auto;
+}
+.sidebar-right h2 {
+    text-align: center;
+    margin-bottom: 20px;
+		}
+.navbar a {
+    color: #99830D; /* color claro */
+	background-color: #231F20;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-size: 18px;
+    transition: background-color 0.3s, color 0.3s;
+	body {
+    display: flex;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+    </style>
+</head>
+<body>
+    <header>
+        <h1><img src="../Fraude cibernético A7_ERV/LOGO.png" width="119" height="122" alt=""/>FRAUDE CIBERNÉTICO 
+			  ___________________________________
+			  </div>
+			  <a href="https://abrilmuniz.github.io/wiki_uvm/"><img src="../Fraude cibernético A7_ERV/—Pngtree—home icon_3568908.jpg" alt="https://abrilmuniz.github.io/wiki_uvm/" width="48" height="48"></a> <span class="social-icons"><a href="INISIO DE SECIÓN.html"><img src="../Fraude cibernético A7_ERV/—Pngtree—register button with gradient red_15587228.png" width="116" height="48" alt=""/></a><a href="PERFIL.html"><img src="../Fraude cibernético A7_ERV/1486485581-account-audience-person-customer-profile-user_81164.png" alt="Facebook" width="51" height="49"></a></span>			  <a href="https://facebook.com/tu-pagina"><a href="https://facebook.com/tu-pagina"></a>
+		  <div class="logo"></div>
+          </div>
+    </div>
+    <div class="navbar"><a href="INTRODUCCION INICIO.html">INICIO</a> <a href="SERVICIOS.html">SERVICIOS</a> <a href="AYUDA.html">AYUDA</a> <a href="CONTACTOS.html">CONTACTOS</a></div>
+      </h1>
+    </header>
+</style>
+</head>
+
+<body>
+	  <div class="container">
+		<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menú Desplegable</title>
+    <p>
+  <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #d3d3d3; /* Gris claro */
+            color: #333;
+            margin: 0;
+            padding: 20px;
+        }
+        .sidebar {
+            width: 200px;
+            background-color: #333; /* Negro */
+            color: white;
+            padding: 15px;
+            position: relative;
+        }
+        .sidebar h2 {
+			color: #99830d; /* Dorado */
+        }
+        .sidebar a {
+            color: #bdbdbd; /* Dorado */
+            text-decoration: none;
+            display: block;
+            padding: 10px 0;
+            position: relative;
+        }
+        .sidebar a:hover {
+            background-color: #555; /* Gris */
+        }
+        .sidebar ul {
+            display: none;
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        .sidebar a:hover + ul {
+            display: block;
+        }
+        .sidebar ul li a {
+            padding-left: 20px;
+            color: #99830d; /* Dorado */
+        }
+    </style>
+  <body>
+    </p>
+<div class="sidebar">
+      <h2>MENÚ</h2><p><a href="TIPOS DE FRAUDES.html">Tipos de fraudes</a><a href="#tema1">&nbsp;</a> </p>
+      <ul>
+        <li><a href="#subtema1">Phishing</a></li>
+        <li><a href="#subtema2">Smishing</a></li>
+        <li><a href="#subtema3">Vishing</a></li>
+        <li><a href="#subtema3">Correo basura (Spam)</a></li>
+        <li><a href="#subtema1">Pharming</a></li>
+      </ul>
+      <a href="FRAUDE CIBERNETICO  DETECCION.html">Detección</a><a href="#tema2">&nbsp;</a>
+      <ul>
+        <li><a href="#subtema1">Capacitación</a></li>
+        <li><a href="#subtema2">Consejos</a></li>
+      </ul>
+      <a href="ORIGEN.html">Origen</a><a href="#tema3">&nbsp;</a>
+      <ul>
+        <li><a href="#subtema1">Causas</a></li>
+        <li><a href="#subtema2">Consecuencias</a></li>
+      </ul>
+      <a href="PREVENCIÓN.html">Prevención</a><a href="#tema4">&nbsp;</a>
+      <ul>
+        <li><a href="#subtema1">Educación</a></li>
+        <li><a href="#subtema2">Monitoreo</a></li>
+        <li><a href="#subtema3">Protección</a></li>
+      </ul>
+      <p><a href="SERVICIOS.html">Más... </a></p>
+</div>
+	<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mi Página Web</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .contenido {
+            padding: 20px;
+            background-color: #f0f0f0;
+        }
+    </style>
+</head>
+<body>
+
+    <main>
+        <div class="contenido">
+             <div class="contenido">
+ <!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fraudes Cibernéticos</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            font-weight: 300;
+        }
+        h1, h3 {
+            font-weight: 300;
+        }
+    </style>
+</head>
+<body>
+    <h1>TIPOS DE FRAUDES CIBERNÉTICOS.</h1>
+    <ol>
+        <li>Phishing.</li>
+    </ol>
+    <p>El <strong>phishing</strong> no solo se limita a correos electrónicos, también puede incluir sitios web falsos y mensajes en redes sociales. Estos mensajes suelen contener un sentido de urgencia para que actúes rápidamente sin pensar. Por ejemplo, pueden decir que tu cuenta será suspendida si no confirmas tu información inmediatamente. A veces, los atacantes crean páginas web que se parecen mucho a las de instituciones legítimas. Es importante observar pequeños detalles en la URL y buscar errores ortográficos o gramaticales.</p>
+    <h3>2. Smishing</h3>
+    <p>El <strong>smishing</strong> (SMS phishing) utiliza mensajes de texto para engañar a las víctimas. Los mensajes pueden parecer venir de empresas legítimas, como tu banco o una empresa de mensajería, e incluir enlaces que llevan a sitios web fraudulentos. También pueden pedirte que llames a un número de teléfono falso. Ten en cuenta que las empresas reales rara vez te pedirán que proporciones información confidencial a través de SMS.</p>
+    <h3>3. Vishing</h3>
+    <p>En el <strong>vishing</strong>, los estafadores usan tecnologías de spoofing para hacer que el número de teléfono desde el que llaman parezca legítimo. Pueden simular ser representantes del servicio al cliente de tu banco, compañía de tarjetas de crédito, o incluso agencias gubernamentales. A menudo te presionan para que actúes rápidamente o proporcionan información detallada que te hace confiar en ellos. Es crucial colgar y llamar al número oficial de la empresa para verificar la autenticidad de la llamada.</p>
+    <h3>4. Correo Basura (Spam)</h3>
+    <p>El <strong>spam</strong> puede ser algo más que una molestia; puede ser peligroso si contiene enlaces o archivos adjuntos maliciosos. Estos pueden instalar malware en tu dispositivo, el cual puede robar tu información personal. Algunos spams también contienen enlaces a sitios web de phishing. Para protegerte, es recomendable usar filtros de spam y no abrir correos de remitentes desconocidos. Siempre verifica el remitente y nunca descargues archivos adjuntos sospechosos.</p>
+    <h3>5. Pharming</h3>
+    <p>El <strong>pharming</strong> implica redirigir el tráfico de un sitio web legítimo a uno falso sin que el usuario lo sepa. Esto puede ocurrir a través de la manipulación del DNS (Domain Name System) o mediante malware instalado en tu dispositivo. A diferencia del phishing, que requiere que los usuarios hagan clic en un enlace, el pharming puede redirigir automáticamente a las víctimas cuando intentan acceder a un sitio web real. Utilizar software de seguridad actualizado y configuraciones de DNS seguras puede ayudar a prevenir este tipo de fraude.</p>
+</body>
+</html>
+            <p><img src="../Fraude cibernético A7_ERV/OIP (82).jpeg" width="671" height="355" alt=""/></p>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+
+      </div>
+</body>
+</html>
+      </div>
+    </main>
+
+		<!DOCTYPE html>
+<html>
+<head>
+    <title>Mi Página con Barra Lateral Vertical</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        header, nav, footer {
+            background-color: #;
+            padding: 10px;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .main-content {
+            display: flex;
+            justify-content: space-between;
+            padding: 0 20px;
+        }
+        .content {
+            width: 70%;
+            padding: 20px;
+            background-color: #;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .sidebar {
+            width: 25%;
+            background-color: #;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .ad {
+            margin-bottom: 20px;
+            background-color: #;
+            padding: 10px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+    <header>
+         <h1>        <h2>¿Cuáles son los tipos de fraudes cibernéticos más comunes y cómo evitarlos?</h2>
+        <p><img src="https://th.bing.com/th/id/OIP.FFP7k4JT_4fbx13eaz9TxAHaHa?rs=1&pid=ImgDetMain" width="244" height="158" alt=""/></p></h1>
+	        <p><strong>Policía Cibernética de la Secretaría de Seguridad Ciudadana </strong></p>
+        <p><img src="https://img.freepik.com/vector-premium/cartel-fraude-cibernetico-isometrico_188544-7462.jpg?w=740" width="257" height="205" alt=""/></p>
+    <nav>
+	
+</body>
+</html>
+
+</body>
+		  
+</body>
+
+</html>

@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Sitio Web</title>
+    <style>
+        header {
+            background-color: #231F20;
+            color: #bdbdbd;
+            padding: 10px 0;
+            text-align: center;
+        }
+		}
+		
+        .header {
+            background-color: #BDBDBD; 
+            color: #231f20; /* color claro */
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+        .header .logo img {
+            height: 50px; /* Ajusta este valor según el tamaño de tu logotipo */
+        }
+        .header .social-icons a {
+            margin-left: 10px;
+        }
+        .header .social-icons img {
+            width: 24px;
+            height: 24px;
+            transition: transform 0.3s;
+        }
+        .header .social-icons img:hover {
+            transform: scale(1.2);
+        }
+        .container {
+            display: flex;
+            flex-wrap: nowrap;
+            height: calc(100vh - 80px); +
+            overflow: hidden;
+        }
+        .sidebar {
+            background-color: #231F20; 
+            color: #99830D; /* color claro */
+            width: 250px;
+            padding-top: 20px;
+            box-shadow: 2px 0 5px rgba(0,0,0,0.1);
+            overflow-y: auto;
+            flex-shrink: 0;
+        }
+        .sidebar h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .sidebar a {
+            padding: 15px 25px;
+            text-decoration: none;
+            font-size: 18px;
+            color: #E7E2E2; /* color claro */
+            display: block;
+            transition: background-color 0.3s, color 0.3s;
+        }
+        .sidebar a:hover {
+            background-color: #BDBDBD;
+            color: #231F20; /* gris oscuro */
+        }
+        .main {
+            padding: 20px;
+            overflow-y: auto;
+            flex-grow: 1;
+            background-color: #BDBDBD; /*
+        }
+			.navbar {
+    display: flex;
+    justify-content: center;
+    background-color: #34495e; /* gris oscuro */
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+		.navbar {
+    display: flex;
+    justify-content: center; /* Centra el menú horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    background-color: #E7E2E2; /* gris oscuro */
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.navbar a {
+    color: #99830D; /* color claro */
+	background-color: #231F20;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-size: 18px;
+    transition: background-color 0.3s, color 0.3s;
+	body {
+    display: flex;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.content {
+    flex-grow: 1;
+    padding: 20px;
+    background-color: #bdbdbd; /* color de fondo */
+}
+
+.sidebar-right {
+    width: 250px;
+    padding: 20px;
+    background-color: #BDBDBD; /* gris oscuro */
+    color: #bdbdbd; /* color claro */
+    box-shadow: -2px 0 5px rgba(0,0,0,0.1);
+    overflow-y: auto;
+}
+.sidebar-right h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.sidebar-right p {
+    margin: 10px 0;
+}
+
+}
+		.navbar a:hover {
+    background-color: #BDBDBD;
+    color: #BDBDBD; /* gris oscuro */
+}
+
+        nav {
+            margin: 10px 0;
+        }
+        nav a {
+            color: #99830D;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+	        .sidebar {
+            background-color: #231F20; 
+            color: #99830D; /* color claro */
+            width: 250px;
+            padding-top: 20px;
+            box-shadow: 2px 0 5px rgba(0,0,0,0.1);
+            overflow-y: auto;
+            flex-shrink: 0;
+		}
+        .sidebar h2 {
+            text-align: center;
+            margin-bottom: 20px;
+			.sidebar-right {
+    width: 250px;
+    padding: 20px;
+    background-color: #BDBDBD; /* gris oscuro */
+    color: #BDBDBD; /* color claro */
+    box-shadow: -2px 0 5px rgba(0,0,0,0.1);
+    overflow-y: auto;
+}
+.sidebar-right h2 {
+    text-align: center;
+    margin-bottom: 20px;
+		}
+.navbar a {
+    color: #99830D; /* color claro */
+	background-color: #231F20;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-size: 18px;
+    transition: background-color 0.3s, color 0.3s;
+	body {
+    display: flex;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+    </style>
+</head>
+<body>
+    <header>
+        <h1><img src="../Fraude cibernético A7_ERV/LOGO.png" width="119" height="122" alt=""/>FRAUDE CIBERNÉTICO 
+			  ___________________________________
+			  </div>
+			  <a href="https://abrilmuniz.github.io/wiki_uvm/"><img src="../Fraude cibernético A7_ERV/—Pngtree—home icon_3568908.jpg" alt="https://abrilmuniz.github.io/wiki_uvm/" width="48" height="48"></a> <span class="social-icons"><a href="INISIO DE SECIÓN.html"><img src="../Fraude cibernético A7_ERV/—Pngtree—register button with gradient red_15587228.png" width="116" height="48" alt=""/></a><a href="PERFIL.html"><img src="../Fraude cibernético A7_ERV/1486485581-account-audience-person-customer-profile-user_81164.png" alt="Facebook" width="51" height="49"></a></span><a href="https://facebook.com/tu-pagina"><a href="https://facebook.com/tu-pagina"></a>
+		  <div class="logo"></div>
+          </div>
+    </div><div class="navbar"><a href="INTRODUCCION INICIO.html">INICIO</a> <a href="SERVICIOS.html">SERVICIOS</a> <a href="AYUDA.html">AYUDA</a> <a href="CONTACTOS.html">CONTACTOS</a></div>
+      </h1>
+    </header>
+</style>
+</head>
+
+<body>
+	  <div class="container">
+		<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menú Desplegable</title>
+    <p>
+  <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #d3d3d3; /* Gris claro */
+            color: #333;
+            margin: 0;
+            padding: 20px;
+        }
+        .sidebar {
+            width: 200px;
+            background-color: #333; /* Negro */
+            color: white;
+            padding: 15px;
+            position: relative;
+        }
+        .sidebar h2 {
+			color: #99830d; /* Dorado */
+        }
+        .sidebar a {
+            color: #bdbdbd; /* Dorado */
+            text-decoration: none;
+            display: block;
+            padding: 10px 0;
+            position: relative;
+        }
+        .sidebar a:hover {
+            background-color: #555; /* Gris */
+        }
+        .sidebar ul {
+            display: none;
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        .sidebar a:hover + ul {
+            display: block;
+        }
+        .sidebar ul li a {
+            padding-left: 20px;
+            color: #99830d; /* Dorado */
+        }
+    </style>
+  <body>
+    </p>
+<div class="sidebar">
+  <h2>MENÚ</h2><p><a href="TIPOS DE FRAUDES.html">Tipos de fraudes</a><a href="#tema1">&nbsp;</a> </p>
+  <ul>
+    <li><a href="#subtema1">Phishing</a></li>
+    <li><a href="#subtema2">Smishing</a></li>
+    <li><a href="#subtema3">Vishing</a></li>
+    <li><a href="#subtema3">Correo basura (Spam)</a></li>
+    <li><a href="#subtema1">Pharming</a></li>
+  </ul>
+  <a href="FRAUDE CIBERNETICO  DETECCION.html">Detección</a><a href="#tema2">&nbsp;</a>
+  <ul>
+    <li><a href="#subtema1">Capacitación</a></li>
+    <li><a href="#subtema2">Consejos</a></li>
+  </ul>
+  <a href="ORIGEN.html">Origen</a><a href="#tema3">&nbsp;</a>
+  <ul>
+    <li><a href="#subtema1">Causas</a></li>
+    <li><a href="#subtema2">Consecuencias</a></li>
+  </ul>
+  <a href="PREVENCIÓN.html">Prevención</a><a href="#tema4">&nbsp;</a>
+  <ul>
+    <li><a href="#subtema1">Educación</a></li>
+    <li><a href="#subtema2">Monitoreo</a></li>
+    <li><a href="#subtema3">Protección</a></li>
+  </ul>
+  <p><a href="SERVICIOS.html">Más... </a></p>
+</div>
+	<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mi Página Web</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .contenido {
+            padding: 20px;
+            background-color: #f0f0f0;
+        }
+    </style>
+</head>
+<body>
+
+    <main>
+        <div class="contenido">
+             <div class="contenido">
+ <!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fraudes Cibernéticos</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+<style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            font-weight: 300;
+        }
+        h1, h3 {
+            font-weight: 300;
+        }
+    </style>
+</head>
+<body>
+<h1>Origen del Fraude Cibernético.</h1>
+<ol>
+  <p>El fraude cibernético tiene sus raíces en los primeros días de la informática y las redes. Antes de la existencia de Internet, ya se cometían delitos informáticos, principalmente relacionados con el robo de datos y el acceso no autorizado a sistemas informáticos. Estos primeros delitos se centraban en la manipulación de sistemas para obtener información valiosa, como datos gubernamentales y corporativos.</p>
+    <h4>Primeros Casos de Fraude Informático</h4>
+    <p>Los primeros casos de fraude informático se remontan a la década de 1960, cuando las computadoras comenzaron a ser utilizadas por grandes corporaciones y gobiernos. En esta época, los delitos informáticos eran cometidos por empleados internos que tenían acceso a los sistemas y datos sensibles. Un ejemplo temprano es el caso de John Draper, conocido como "Captain Crunch", quien en los años 70 utilizó un silbato de cereal para hackear el sistema telefónico de AT&amp;T y realizar llamadas gratuitas.</p>
+    <h4>Años 80: El Surgimiento del Correo Electrónico</h4>
+    <p>Con la proliferación del correo electrónico a finales de los años 80, surgieron nuevas oportunidades para el fraude cibernético. Los ciberdelincuentes comenzaron a utilizar el correo electrónico para enviar fraudes y malware a gran escala. Un ejemplo clásico de esta época es la estafa del "príncipe nigeriano", donde se solicitaba a las víctimas que enviaran dinero a cambio de una supuesta recompensa futura.</p>
+    <h4>Años 90: Navegadores Web y Virus</h4>
+    <p>En los años 90, con el avance de los navegadores web, los ciberdelincuentes encontraron nuevas formas de atacar a los usuarios. Los virus informáticos se propagaban a través de conexiones a Internet y sitios web cuestionables. Estos virus podían ralentizar las computadoras, mostrar publicidad no deseada o redirigir a los usuarios a sitios web maliciosos.</p>
+    <h4>Principios de los 2000: Redes Sociales y Robo de Identidad</h4>
+    <p>El auge de las redes sociales a principios de los 2000 marcó un punto de inflexión en el fraude cibernético. La gran cantidad de información personal disponible en las redes sociales facilitó el robo de identidad y otros tipos de fraudes. Los ciberdelincuentes podían acceder a datos personales y utilizarlos para cometer delitos como el fraude financiero.</p>
+    <h3>Evolución del Fraude Cibernético</h3>
+    <h4>Cibercrimen Organizado</h4>
+    <p>El cibercrimen organizado se refiere a la actividad delictiva llevada a cabo por grupos estructurados y coordinados que utilizan tecnología avanzada para cometer sus delitos. Este tipo de cibercrimen incluye una amplia gama de actividades, como el robo de datos, el fraude cibernético, el espionaje industrial y la creación de redes de botnets.</p>
+    <h4>Factores que Impulsan el Cibercrimen Organizado</h4>
+    <ol>
+      <li><strong>Avance Tecnológico y Digitalización</strong>: La rápida evolución de la tecnología y la digitalización de la sociedad han proporcionado nuevas herramientas y oportunidades para los ciberdelincuentes.</li>
+      <li><strong>Lucratividad</strong>: El cibercrimen es altamente lucrativo, lo que motiva a los delincuentes a invertir en tecnologías y técnicas avanzadas.</li>
+      <li><strong>Anonimato</strong>: La dificultad para rastrear y perseguir a los ciberdelincuentes debido al anonimato que ofrece Internet facilita la proliferación del cibercrimen.</li>
+    </ol>
+    <h3>Ejemplos de Fraude Cibernético</h3>
+    <h4>Caso de John Draper ("Captain Crunch")</h4>
+    <p>John Draper, conocido como "Captain Crunch", es uno de los primeros hackers famosos. En los años 70, Draper descubrió que un silbato incluido en una caja de cereal "Cap'n Crunch" podía emitir un tono de 2600 Hz, el cual era utilizado por el sistema telefónico de AT&amp;T para establecer llamadas de larga distancia. Utilizando este silbato, Draper logró realizar llamadas gratuitas, lo que marcó uno de los primeros casos de fraude cibernético.</p>
+    <h4>Estafa del Príncipe Nigeriano</h4>
+    <p>La estafa del "príncipe nigeriano" es un ejemplo clásico de fraude cibernético que surgió con la proliferación del correo electrónico en los años 80. En esta estafa, las víctimas recibían correos electrónicos de alguien que afirmaba ser un príncipe nigeriano que necesitaba ayuda para transferir una gran suma de dinero. A cambio de su ayuda, las víctimas eran prometidas una recompensa. Sin embargo, una vez que enviaban el dinero, nunca recibían la supuesta recompensa.</p>
+    <h4>Caso de Hamza Bendelladj</h4>
+    <p>Hamza Bendelladj, un joven argelino, fue uno de los ciberdelincuentes más buscados por el FBI. Bendelladj fue acusado de robar más de 200 millones de dólares al vulnerar los sistemas de seguridad de 217 bancos. Además, comercializó varias versiones del virus SpyEye, permitiendo que otros ciberdelincuentes realizaran delitos similares. Fue detenido en 2013 y condenado a 15 años de cárcel en Estados Unidos.</p>
+    <h4>Fraude de Tarjetas de Crédito en 2013</h4>
+    <p>En 2013, se presentó uno de los casos más grandes de fraude de tarjetas de crédito en la historia de los EE. UU. Cinco hombres fueron acusados de una ola de fraude y piratería que les costó a las empresas más de 300 millones de dólares. Este caso destacó la magnitud y el impacto económico del fraude cibernético en el mundo moderno.</p>
+    <h4>Caso de Carly Rae Jepsen</h4>
+    <p>En 2012, la cantante canadiense Carly Rae Jepsen sufrió un ataque cibernético en el que un hacker accedió a su computadora y robó fotos personales. El hacker intentó vender las fotos a medios de comunicación, pero fue rastreado y detenido por la policía. Este caso subraya cómo los ciberdelincuentes pueden explotar la información personal para obtener beneficios económicos.</p>
+    <hr>
+    <p>Espero que esta información adicional te haya sido útil. Si necesitas más detalles o tienes alguna otra pregunta, ¡no dudes en decírmelo!</p>
+    <p>Referencias:</p>
+    <ul>
+      <li>SciELO: Enlace</li>
+      <li>Le VPN: Enlace</li>
+      <li>O.G.D.I: Enlace</li>
+      <li>El Destape: Enlace</li>
+    </ul>
+    </li>
+  </ol>
+</body>
+</html>
+            <p><img src="../Fraude cibernético A7_ERV/OIP (82).jpeg" width="671" height="355" alt=""/></p>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+
+      </div>
+</body>
+</html>
+      </div>
+    </main>
+
+		<!DOCTYPE html>
+<html>
+<head>
+    <title>Mi Página con Barra Lateral Vertical</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        header, nav, footer {
+            background-color: #;
+            padding: 10px;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .main-content {
+            display: flex;
+            justify-content: space-between;
+            padding: 0 20px;
+        }
+        .content {
+            width: 70%;
+            padding: 20px;
+            background-color: #;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .sidebar {
+            width: 25%;
+            background-color: #;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .ad {
+            margin-bottom: 20px;
+            background-color: #;
+            padding: 10px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+    <header>
+         <h1>        <h2>¿Cuáles son los tipos de fraudes cibernéticos más comunes y cómo evitarlos?</h2>
+        <p><img src="https://th.bing.com/th/id/OIP.FFP7k4JT_4fbx13eaz9TxAHaHa?rs=1&pid=ImgDetMain" width="244" height="158" alt=""/></p></h1>
+	        <p><strong>Policía Cibernética de la Secretaría de Seguridad Ciudadana </strong></p>
+        <p><img src="https://img.freepik.com/vector-premium/cartel-fraude-cibernetico-isometrico_188544-7462.jpg?w=740" width="257" height="205" alt=""/></p>
+    <nav>
+	
+</body>
+</html>
+
+</body>
+		  
+</body>
+
+</html>
